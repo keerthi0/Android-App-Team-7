@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">AA</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="username">Username</string>
+    <string name="hello">Hello</string>
+    <string name="john">John</string>
+    <string name="search_events">Search Events</string>
+    <string name="main_test">Main Test</string>
+    <string name="user_info">User Info</string>
+    <string name="my_events">My Events</string>
+    <string name="logout">LogOut</string>
+    <string name="text_event_head">Text Event Head</string>
+    <string name="registration_forms">Registration Forms</string>
+    <string name="event_details">Event Details</string>
+    <string name="registration_form">REGISTRATION FORM</string>
+    <string name="full_name">Full Name</string>
+    <string name="email">Email</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="year">Year</string>
+    <string name="branch">Branch</string>
+    <string name="section">Section</string>
+    <string name="register">Register</string>
+    <string name="interested">Interested</string>
+</resources>
