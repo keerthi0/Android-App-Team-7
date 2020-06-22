@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MyEventsInfo">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <Button
+        android:id="@+id/registeredevents"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/registered_events"
+        android:textStyle="bold"
+        android:background="@color/colorPirmaryLight" />
+
+    <Button
+        android:id="@+id/interestedevents"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10sp"
+        android:background="@color/colorPirmaryLight"
+        android:text="@string/interested_events"
+        android:textStyle="bold"/>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

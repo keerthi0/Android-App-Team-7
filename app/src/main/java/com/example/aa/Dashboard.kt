@@ -1,5 +1,7 @@
 package com.example.aa
 
+import android.app.NotificationChannel
+import android.app.NotificationManager
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -14,6 +16,10 @@ class Dashboard : AppCompatActivity() {
         Logout.setOnClickListener {
         val intent = Intent(this,MainActivity::class.java)
         startActivity(intent)
+        }
+        myevents.setOnClickListener {
+            val intent = Intent(this,MyEventsInfo::class.java)
+            startActivity(intent)
         }
     }
 }

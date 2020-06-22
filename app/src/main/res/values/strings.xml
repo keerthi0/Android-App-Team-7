@@ -22,4 +22,6 @@
     <string name="section">Section</string>
     <string name="register">Register</string>
     <string name="interested">Interested</string>
+    <string name="registered_events">Registered Events</string>
+    <string name="interested_events">Interested Events</string>
 </resources>
