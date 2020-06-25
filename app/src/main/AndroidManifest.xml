@@ -2,15 +2,23 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.aa">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
-        android:fullBackupContent="true"
         android:allowBackup="true"
+        android:fullBackupContent="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".RegisteredEvents"/>
+        <activity android:name=".RegisteredEventsInfo"/>
+        <activity android:name=".UpcomingEventsInfo" />
+        <activity android:name=".InterestedEventsInfo" />
+        <activity android:name=".PastRegisteredEventsInfo" />
+        <activity android:name=".TextingClubActivity" />
+        <activity android:name=".UserInformation" />
+        <activity android:name=".RegisteredEvents" />
         <activity android:name=".InterestedEvents" />
         <activity android:name=".MyEventsInfo" />
         <activity android:name=".RegistrationForm" />

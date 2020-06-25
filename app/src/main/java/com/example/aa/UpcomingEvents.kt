@@ -14,7 +14,7 @@ class UpcomingEvents : AppCompatActivity() {
         val listView=findViewById<ListView>(R.id.FutureEvent)
         listView.adapter= ArrayAdapter<String>(this,android.R.layout.simple_list_item_1,events)
         listView.setOnItemClickListener { adapterView, view, i, l ->
-            val intent = Intent(this,EventsInfo::class.java)
+            val intent = Intent(this,UpcomingEventsInfo::class.java)
             startActivity(intent)
         }
     }

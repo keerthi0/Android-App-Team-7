@@ -15,7 +15,7 @@ class InterestedEvents : AppCompatActivity() {
         listView.adapter= ArrayAdapter<String>(this,android.R.layout.simple_list_item_1,events)
         listView.setOnItemClickListener { adapterView, view, i, l ->
 
-            val intent = Intent(this,EventsInfo::class.java)
+            val intent = Intent(this,InterestedEventsInfo::class.java)
             startActivity(intent)
         }
     }

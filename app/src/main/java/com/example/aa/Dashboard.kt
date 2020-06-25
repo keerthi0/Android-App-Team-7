@@ -8,6 +8,7 @@ import android.os.Bundle
 import android.widget.ArrayAdapter
 import android.widget.ListView
 import kotlinx.android.synthetic.main.activity_dashboard.*
+import kotlinx.android.synthetic.main.activity_user_information.*
 
 class Dashboard : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -19,6 +20,10 @@ class Dashboard : AppCompatActivity() {
         }
         myevents.setOnClickListener {
             val intent = Intent(this,MyEventsInfo::class.java)
+            startActivity(intent)
+        }
+        userinfo.setOnClickListener {
+            val intent =Intent(this,UserInformation::class.java)
             startActivity(intent)
         }
     }

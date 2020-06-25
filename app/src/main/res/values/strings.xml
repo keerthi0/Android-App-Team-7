@@ -24,4 +24,13 @@
     <string name="interested">Interested</string>
     <string name="registered_events">Registered Events</string>
     <string name="interested_events">Interested Events</string>
+    <string name="change_user_info">Change User Info</string>
+    <string name="fullname">FullName</string>
+    <string name="contact_number">Contact Number</string>
+    <string name="email_id">Email ID</string>
+    <string name="enter_recipient_emailid_s">Enter Recipient EmailId(s)</string>
+    <string name="send_email">Send Email</string>
+    <string name="enter_the_message">Enter the message</string>
+    <string name="enter_subject">Enter Subject</string>
+    <string name="unregister">UnRegister</string>
 </resources>
